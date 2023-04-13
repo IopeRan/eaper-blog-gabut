@@ -210,7 +210,7 @@ hr {
     font-family: 'Press Start 2P', cursive;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1077px) {
     .brand {
         display: none;
     }
@@ -227,20 +227,29 @@ hr {
     }
 
     .contact .content-contact ul a {
-        font-size: 15px;   
+        font-size: 34px;   
         display: flex;
+        margin-top: 15px;
         flex-direction: row;   
-        padding: 0;  
+        padding: 1px;  
         /* margin-left: 5px;
         margin-right: 5px; */
     }
 
     .contact .content-contact ul {
         width: max-content;
+        border-radius: 0;
+        border: none;
+        display: flex;
+        flex-direction: row;
     }
 
     .footer h1 {
         font-size: 20px;
+    }
+
+    span {
+        display: none;
     }
 
 }
